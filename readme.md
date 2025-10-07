@@ -16,7 +16,11 @@ Reason in 3D</h1>
 <a href="https://huggingface.co/datasets/jasonzhango/SPAR-Bench" target="_blank">
     <img alt="HF Dataset: SPAR-Bench" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Benchmark-SPAR--Bench-ffc107?color=ffc107&logoColor=white" height="20" />
 </a>
-
+<a href="https://neurips.cc/virtual/2025/poster/121742" target="_blank">
+    <img alt="NeurIPS 2025 Datasets & Benchmarks"
+         src="https://img.shields.io/badge/NeurIPS%E2%80%9925-Datasets%20%26%20Benchmarks-6f42c1"
+         height="20" />
+</a>
 
 <div>
     <span>Jiahui Zhang</span><sup>1*</sup>,
