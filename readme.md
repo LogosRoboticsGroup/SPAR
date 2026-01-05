@@ -49,6 +49,8 @@ Reason in 3D</h1>
 
 </div>
 
+📰 **News (2026-01-05):** SPAR-Bench is now supported in **EASI** — see [Evaluate via EASI](#-evaluate-via-easi).
+
 ## Contents
 
 - [SPAR-7M](#-spar-7m)
@@ -65,6 +67,7 @@ Reason in 3D</h1>
 
 - [RUN Your Own Evaluation](#-run-your-own-evaluation)
   - [Download Benchmark](#-download-benchmark)
+  - [Evaluate via EASI](#-evaluate-via-easi)
   - [Set Up Environment](#-set-up-environment)
   - [Run Evaluation](#-run-evaluation)
 - [Limitations](#-limitations)
@@ -353,6 +356,24 @@ We evaluate a wide range of models on SPAR-Bench, including commercial APIs and 
 
 ## 🕹️ Run Your Own Evaluation
 We provide tools and instructions to evaluate your own models on SPAR-Bench using [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+
+### 🌐 Evaluate via EASI
+We are excited to share that **SPAR-Bench has been integrated into EASI** (Holistic Evaluation of Multimodal LLMs on Spatial Intelligence), an open-source evaluation toolkit developed by **EvolvingLMMs-Lab**.
+
+This integration connects SPAR-Bench to the broader **VLMEvalKit ecosystem**, enabling:
+- **Expanded model coverage** across many VLMEvalKit-supported models (including proprietary APIs and SI-focused models).
+- **Leaderboard visibility** via the continuously updated **EASI Leaderboard**.
+- **Result alignment**: the EASI team reports reproduced results that align with our official baselines.
+
+EASI currently supports:
+- **SPAR-Bench**
+- **SPAR-Bench (Tiny)**
+
+Resources:
+- **EASI paper (arXiv: 2508.13142)**: [Holistic Evaluation of Multimodal LLMs on Spatial Intelligence](https://arxiv.org/abs/2508.13142)
+- **EASI GitHub**: [EvolvingLMMs-Lab/EASI](https://github.com/EvolvingLMMs-Lab/EASI)
+- **EASI Leaderboard**: [lmms-lab-si/EASI-Leaderboard](https://huggingface.co/spaces/lmms-lab-si/EASI-Leaderboard)
+
 ### 📥 Download Benchmark
 There are **four versions** of SPAR-Bench available on Hugging Face:
 
@@ -452,4 +473,3 @@ If you find this project or dataset helpful, please consider citing our paper:
     journal={arXiv preprint arXiv:2503.22976},
 }
 ```
-
